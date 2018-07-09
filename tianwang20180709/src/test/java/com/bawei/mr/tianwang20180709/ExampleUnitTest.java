@@ -1,4 +1,4 @@
-package com.bawei.mr.myapplicationugfhghfghgfhg;
+package com.bawei.mr.tianwang20180709;
 
 import org.junit.Test;
 

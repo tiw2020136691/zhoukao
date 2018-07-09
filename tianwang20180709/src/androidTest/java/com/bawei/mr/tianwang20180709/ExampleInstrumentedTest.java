@@ -1,4 +1,4 @@
-package com.bawei.mr.myapplicationugfhghfghgfhg;
+package com.bawei.mr.tianwang20180709;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.bawei.mr.myapplicationugfhghfghgfhg", appContext.getPackageName());
+        assertEquals("com.bawei.mr.tianwang20180709", appContext.getPackageName());
     }
 }
