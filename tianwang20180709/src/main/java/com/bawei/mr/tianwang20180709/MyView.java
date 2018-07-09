@@ -66,17 +66,7 @@ public class MyView extends View {
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
-//        Paint paint = new Paint();
-//        paint.setColor(Color.WHITE);
-//        paint.setTextSize(36);
-//        canvas.drawColor(Color.GRAY);
-//
-//        float v = paint.measureText(text);
-//        float x = (getWidth() - v) / 2;
-//        float y = (getHeight() - v) / 2;
-//
-//        canvas.drawText(text, x, y, paint);
-//
+
         mOutterPaint.setStyle(Paint.Style.STROKE);
         mOutterPaint.setXfermode(new PorterDuffXfermode(PorterDuff.Mode.DST_OUT));
         canvas.drawBitmap(mOutterBitmap, 0, 0, null);
